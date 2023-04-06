@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f2f2f2;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 48px;
+    color: seagreen;
+}
+h2{
+    text-align: center;
+    color: seagreen;
+
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.score {
+    text-align: center;
+}
+
+.score p {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:saddlebrown;
+}
+
+.score span {
+    display: block;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1abc9c;
+    margin: 10px 0;
+}
+
+.game {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.game-option {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer
+}
+
+.result{
+    color: seagreen;
+}
+
+button{
+    color: black;
+    background-color: darkorange;
+}
